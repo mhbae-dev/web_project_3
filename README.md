@@ -1,20 +1,33 @@
-# Project 3: From Portland to Portland
+# Landing page Project: From Portland to Portland
 
+---
 ### Overview
 * Intro
 * Figma
-* Images
+* Technologies Used
+* Future Updates
+
+---
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a single page website project about traveling across the US. This project has been set up using ***Flexbox*** and ***CSS Grid*** for layout and follows ***responsive design*** prinicples, so that it can be displayed correctly on most popular screen sizes. It has been set up using a nested ***BEM (Block, Element, Modifier) file structure, HTML*** and ***CSS***.
 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
 
-**Images**
+**Technologies Used**
+- HTML
+- CSS
+- Flexbox
+- Grid
+- Figma
+- Git
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+**Future Updates**
 
-Good luck and have fun!
+- [ ] Add different fonts
+- [ ] Checking the code for cross-compatibility and adding all the necessary vendor prefixes
+- [ ] Designing a form that allows users to submit a comment
+- [ ] Adding further animations/transitions to images and links

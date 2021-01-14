@@ -1,8 +1,12 @@
-@import url(./__links/footer__links.css
+@import url(./__links/footer__links.css);
 @import url(./__links-item/footer__links-item.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
 .footer{
     display: flex;
+    justify-content: space-between;
+    width: 92.5%;
+    margin: 0 auto;
+    padding: 0 0 24px;
 }

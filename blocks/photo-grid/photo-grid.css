@@ -3,8 +3,6 @@
 @import url(./__image/photo-grid__image.css);
 
 .photo-grid{
-    display: grid;
-    grid-gap: 16px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    width: 92.5%;
+    margin: 0 auto 92px;
 }

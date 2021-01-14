@@ -5,5 +5,11 @@
 @import url(./__background/cover__background.css);
 
 .cover{
+    display: flex;
+    position: relative;
+    flex-direction: column;
     color: #FFFFFF;
+    width: 92.5%;
+    min-height: 740px;
+    margin: 0 auto 92px;
 }

@@ -1,0 +1,3 @@
+.header__lang-link_selected:focus{
+    text-decoration: underline;
+}

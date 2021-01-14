@@ -1,0 +1,11 @@
+.footer__links-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.12;
+    margin: 0 18px 0 0;
+}
+
+.footer__links-item:last-of-type{
+    margin-right: 0;
+}

@@ -1,4 +1,6 @@
 .cover__background{
+    position: absolute;
     width: 1184px;
     height: 740px;
+    z-index: 0;
 }

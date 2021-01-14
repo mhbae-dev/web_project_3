@@ -1,5 +1,7 @@
-.intro__list{
+.header__list{
+    display: flex;
     list-style: none;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
 }

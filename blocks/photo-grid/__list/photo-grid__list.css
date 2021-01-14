@@ -8,3 +8,15 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 1024px){
+    .photo-grid__list{
+        list-style: none;
+        width: 100%;
+        grid-gap: 14px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+}

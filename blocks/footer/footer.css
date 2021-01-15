@@ -6,7 +6,26 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    width: 92.5%;
+    max-width: 1184px;
     margin: 0 auto;
     padding: 0 0 24px;
+}
+
+@media screen and (max-width: 1024px){
+    .footer{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer{
+        max-width: 168px;
+        margin: 0 136px 24px 16px;
+    }
 }

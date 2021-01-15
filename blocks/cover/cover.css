@@ -9,7 +9,27 @@
     position: relative;
     flex-direction: column;
     color: #FFFFFF;
-    width: 92.5%;
+    width: 100%;
     min-height: 740px;
     margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1024px){
+    .cover{
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover{
+        min-height: 480px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover{
+        min-height: 200px;
+        margin-bottom: 64px;
+    }
 }

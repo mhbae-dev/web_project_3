@@ -7,3 +7,24 @@
     margin: 283px auto 32px;
     z-index: 2;
 }
+
+@media screen and (max-width: 1024px){
+    .cover__title{
+        margin: 233px auto 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__title{
+        margin: 153px auto 32px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__title{
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
+        margin: 51px auto 16px;
+    }
+}

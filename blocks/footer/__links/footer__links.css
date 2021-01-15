@@ -4,3 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 320px){
+    .footer{
+        flex-wrap: wrap;
+    }
+}

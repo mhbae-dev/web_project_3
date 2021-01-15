@@ -1,5 +1,6 @@
 .header__list{
     display: flex;
+    align-items: center;
     list-style: none;
     color: #FFFFFF;
     margin: 0;

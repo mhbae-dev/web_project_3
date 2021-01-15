@@ -3,6 +3,24 @@
 @import url(./__image/photo-grid__image.css);
 
 .photo-grid{
-    width: 92.5%;
+    max-width: 1184px;
     margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1024px){
+    .photo-grid{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .photo-grid{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .photo-grid{
+        max-width: 288px;
+    }
 }

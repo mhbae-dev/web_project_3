@@ -1,9 +1,9 @@
 .page{
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     background:#2A2C2F;
     color: #FFFFFF;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased; 
     -webkit-text-size-adjust: 100%;

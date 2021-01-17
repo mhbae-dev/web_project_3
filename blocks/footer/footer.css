@@ -6,26 +6,16 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 0 24px;
-}
-
-@media screen and (max-width: 1024px){
-    .footer{
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .footer{
-        max-width: 720px;
-    }
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 320px){
     .footer{
+        flex-direction: column;
         max-width: 168px;
-        margin: 0 136px 24px 16px;
+        margin: 0;
     }
 }

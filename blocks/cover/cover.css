@@ -17,12 +17,16 @@
 @media screen and (max-width: 1024px){
     .cover{
         min-height: 640px;
+        width: 100vw;
+        margin-left: calc(-1 * ((100vw - 100%))/2);
     }
 }
 
 @media screen and (max-width: 768px){
     .cover{
         min-height: 480px;
+        width: 100vw;
+        margin-left: calc(-1 * ((100vw - 100%))/2);
         margin-bottom: 88px;
     }
 }
@@ -30,6 +34,8 @@
 @media screen and (max-width: 320px){
     .cover{
         min-height: 200px;
+        width: 100vw;
+        margin-left: calc(-1 * ((100vw - 100%))/2);
         margin-bottom: 64px;
     }
 }

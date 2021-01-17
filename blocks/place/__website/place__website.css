@@ -4,3 +4,8 @@
     justify-content: flex-end;
     margin: 0;
 }
+
+@media screen and (max-width: 320px){
+    .place__website{
+        display: none;
+    }

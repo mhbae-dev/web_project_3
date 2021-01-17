@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 320px){
-    .footer{
-        flex-wrap: wrap;
+    .footer__links{
+        flex-direction: column;
     }
 }

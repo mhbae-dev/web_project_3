@@ -5,3 +5,29 @@
     grid-template-rows: repeat(2, auto);
     margin: 0 0 80px;
 }
+
+.place__item:last-of-type{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .place__item{
+        grid-gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__item{
+        grid-gap: 48px 28px;
+        margin: 0 0 72px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__item{
+        grid-gap: 32px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        margin: 0 0 49px;
+    }
+}

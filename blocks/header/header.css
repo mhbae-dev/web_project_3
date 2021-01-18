@@ -1,6 +1,7 @@
 @import url(./__list/header__list.css);
 @import url(./__list-item/header__list-item.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_selected/header__lang-link_selected.css);
 
 .header{
     display: flex;
@@ -19,20 +20,3 @@
         margin-bottom: 50px;
     }
 }
-
-@media screen and (max-width: 768px){
-    .header{
-        width: 100%;
-        margin-bottom: 50px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .header{
-        width: 100%;
-        margin-bottom: 50px;
-    }
-}
-
-
-

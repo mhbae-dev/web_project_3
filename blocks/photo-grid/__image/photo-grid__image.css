@@ -1,7 +1,9 @@
 .photo-grid__image{
+    display: block;
     width: 100%;
-    height: 213px;
-    object-fit: fill;
+    min-height: 213px;
+    object-fit: cover;
+ 
 }
 
 @media screen and (max-width: 1024px){

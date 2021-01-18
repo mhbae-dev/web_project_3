@@ -1,7 +1,8 @@
 .place__item{
     display: grid;
+    width: 100%;
     grid-gap: 48px 40px;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: calc(100% - (524px)) auto;
     grid-template-rows: repeat(2, auto);
     margin: 0 0 80px;
 }
@@ -12,12 +13,14 @@
 
 @media screen and (max-width: 1024px){
     .place__item{
+        grid-template-columns: calc(100% - (488px)) auto;
         grid-gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px){
     .place__item{
+        grid-template-columns: calc(100% - (380px)) auto;
         grid-gap: 48px 28px;
         margin: 0 0 72px;
     }

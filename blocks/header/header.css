@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
-    width: calc(100% - 200px);
+    width: calc(100% - 296px);
     max-width: 984px;
     min-width: 288px;
     margin: 0 auto 58px;
@@ -16,7 +16,19 @@
 
 @media screen and (max-width: 1024px){
     .header{
-        width: 100%;
+        width: calc(100% - 96px);
         margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        width: calc(100% - 32px);
     }
 }

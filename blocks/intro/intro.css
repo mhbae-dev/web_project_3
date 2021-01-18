@@ -8,24 +8,25 @@
 .intro{
     color: #FFFFFF;
     max-width: 690px;
-    margin: 0 0 92px 100px;
+    margin: 0 0 92px 148px;
 }
 
 @media screen and (max-width: 1024px){
     .intro{
-        margin: 0 0 92px;
+        margin: 0 0 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px){
     .intro{
-        width: 100%;
+        width: calc(100% - 48px);
         margin: 0 auto 88px;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro{
+        width: calc(100% - 32px);
         margin: 0 auto 64px;
     }
 }

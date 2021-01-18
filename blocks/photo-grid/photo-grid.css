@@ -4,18 +4,20 @@
 
 .photo-grid{
     max-width: 1184px;
-    width: 100%;
+    width: calc(100% - 96px);
     margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 768px){
     .photo-grid{
+        width: calc(100% - 48px);
         margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .photo-grid{
+        width: calc(100% - 32px);
         margin-bottom: 64px;
     }
 }

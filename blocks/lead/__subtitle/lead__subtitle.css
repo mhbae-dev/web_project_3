@@ -4,19 +4,28 @@
     font-size: 30px;
     line-height: 1.2;
     max-width: 620px;
-    min-width: 288px;
+    width: calc(100% - 264px);
     text-align: center;
     margin: 0 auto 64px;
 }
 
 @media screen and (max-width: 1024px){
     .lead__subtitle{
+        width: calc(100% - 208px);
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead__subtitle{
+        width: calc(100% - 48px);
         margin-bottom: 56px;
     }
 }
 
 @media screen and (max-width: 320px){
     .lead__subtitle{
+        width: calc(100% - 32px);
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 40px;

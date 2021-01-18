@@ -14,14 +14,11 @@
 @media screen and (max-width: 768px){
     .lead__image{
         min-height: 480px;
-        width: 100vw;
-        margin-left: calc(-1 * ((100vw - 100%))/2);
     }
 }
 
 @media screen and (max-width: 320px){
     .lead__image{
         min-height: 200px;
-        margin-left: calc(-1 * ((100vw - 100%))/2);
     }
 }

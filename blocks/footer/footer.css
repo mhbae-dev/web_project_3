@@ -1,3 +1,4 @@
+@import url(./__nav/footer__nav.css);
 @import url(./__links/footer__links.css);
 @import url(./__links-item/footer__links-item.css);
 @import url(./__link/footer__link.css);
@@ -6,15 +7,27 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100% - 296px);
     margin: 0 auto;
     padding: 0 0 24px;
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1024px){
+    .footer{
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        width: calc(100% - 48px);
+    }
+}
+
 @media screen and (max-width: 320px){
     .footer{
         flex-direction: column;
-        margin: 0;
+        margin-left: 16px;
     }
 }

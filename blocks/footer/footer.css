@@ -7,16 +7,10 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 296px);
+    width: calc(100% - 96px);
     margin: 0 auto;
     padding: 0 0 24px;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 1024px){
-    .footer{
-        width: calc(100% - 96px);
-    }
 }
 
 @media screen and (max-width: 768px){

@@ -6,5 +6,17 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    .lead__caption{
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .lead__caption{
+        width: calc(100% - 32px);
+    }
 }

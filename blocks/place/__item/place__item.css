@@ -2,8 +2,11 @@
     display: grid;
     width: 100%;
     grid-gap: 48px 40px;
-    grid-template-columns: calc(100% - (524px)) auto;
+    grid-template-columns: auto auto;
     grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "title website"
+    "image paragraph";
     margin: 0 0 80px;
 }
 
@@ -26,11 +29,15 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .place__item{
-        grid-gap: 32px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(auto, 1fr);
+        grid-template-areas: 
+        "title"
+        "image"
+        "paragraph";
+        grid-gap: 32px;
         margin: 0 0 49px;
     }
 }

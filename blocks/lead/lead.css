@@ -19,10 +19,11 @@
 @media screen and (max-width: 768px){
     .lead{
         width: 100%;
+        margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .lead{
         margin-bottom: 64px;
     }

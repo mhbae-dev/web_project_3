@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 0;
+    grid-area: website;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .place__website{
         display: none;
     }

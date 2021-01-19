@@ -5,13 +5,17 @@
 @import url(./__background/cover__background.css);
 
 .cover{
+    max-width: 1184px;
+    max-height: 740px;
     width: calc(100% - 96px);
+    height: calc((100vw - 96px)/1.6);
     margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px){
     .cover{
         width: 100%;
+        height: calc(100vw/1.6);
     }
 }
 

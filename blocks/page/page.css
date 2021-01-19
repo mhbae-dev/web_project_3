@@ -1,8 +1,6 @@
-@import url(./__wrapper/page__wrapper.css);
-
 .page{
     font-family: Inter, sans-serif;
-    background:#2A2C2F;
+    background-color:#2A2C2F;
     margin: auto;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -11,7 +9,9 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
+    max-width: 1280px;
     min-width: 320px;
+    margin: auto;
 }
 
 

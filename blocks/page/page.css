@@ -9,7 +9,6 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
-    max-width: 1280px;
     min-width: 320px;
     margin: auto;
 }

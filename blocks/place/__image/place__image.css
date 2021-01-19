@@ -4,22 +4,14 @@
     grid-area: image;
 }
 
-/* @media screen and (max-width: 1024px){
-    .place__image{
-        width: calc(100% - 524px);
-        height: calc(100vw / 2);
+@media screen and (max-width: 1024px){
+    .photo-grid__image{
+        min-height: 440px;
     }
 }
 
 @media screen and (max-width: 768px){
-    .place__image{
-        width: calc(100% - 488px);
-        height: calc(100vw / 2);
+    .photo-grid__image{
+        min-height: 340px;
     }
 }
-
-@media screen and (max-width: 425px){
-    .place__image{
-        min-height: 320px;
-    }
-} */

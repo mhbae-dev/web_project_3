@@ -2,8 +2,7 @@
     display: grid;
     width: 100%;
     grid-gap: 48px 40px;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
     grid-template-areas: 
     "title website"
     "image paragraph";
@@ -16,14 +15,12 @@
 
 @media screen and (max-width: 1024px){
     .place__item{
-        grid-template-columns: calc(100% - (488px)) auto;
         grid-gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 950px){
     .place__item{
-        grid-template-columns: calc(100% - (380px)) auto;
         grid-gap: 48px 28px;
         margin: 0 0 72px;
     }
@@ -31,8 +28,6 @@
 
 @media screen and (max-width: 425px){
     .place__item{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(auto, 1fr);
         grid-template-areas: 
         "title"
         "image"

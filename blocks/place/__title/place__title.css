@@ -9,18 +9,8 @@
     grid-area: title;
 }
 
-@media screen and (max-width: 1024){
+@media screen and (max-width: 950px){
     .place__title{
-        width: calc(100% - 488px);
-        align-self: end;
-        font-size: 42px;
-        line-height: 1.1;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .place__title{
-        width: calc(100% - 380px);
         align-self: end;
         font-size: 42px;
         line-height: 1.1;

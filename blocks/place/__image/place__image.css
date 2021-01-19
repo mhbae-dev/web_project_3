@@ -5,13 +5,13 @@
 }
 
 @media screen and (max-width: 1024px){
-    .photo-grid__image{
+    .place__image{
         min-height: 440px;
     }
 }
 
 @media screen and (max-width: 768px){
-    .photo-grid__image{
+    .place__image{
         min-height: 340px;
     }
 }

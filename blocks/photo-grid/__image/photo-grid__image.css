@@ -5,21 +5,3 @@
     object-fit: cover;
  
 }
-
-@media screen and (max-width: 1024px){
-    .photo-grid__image{
-        min-height: 225px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .photo-grid__image{
-        min-height: 264px;
-    }
-}
-
-@media screen and (max-width: 425px){
-    .photo-grid__image{
-        min-height: 216px;
-    }
-}

@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 568px){
     .photo-grid__list{
         grid-gap: 12px;
     }

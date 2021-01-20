@@ -6,7 +6,7 @@
     grid-area: website;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 568px){
     .place__website{
         display: none;
     }

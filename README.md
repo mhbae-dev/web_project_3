@@ -23,12 +23,11 @@ Visit this link to see the project live, [click here](https://mhbae-dev.github.i
 First, clone this repository to a local directory. Enter in the command line:
 ```
 $ git clone https://github.com/mhbae-dev/web_project_3.git
-cd web_project_3
+$ cd web_project_3
 ```
 ### Run
 Open index.html to view the website
 ```
-$ cd web_project_3
 open ./index.html or use Live Server
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ```

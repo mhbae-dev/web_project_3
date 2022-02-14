@@ -1,18 +1,36 @@
-# Landing page Project: From Portland to Portland
-
-<https://mhbae-dev.github.io/web_project_3/>
-
+# From Portland to Portland
 ---
 ### Overview
-* Intro
+* Overview
+* Usage
 * Technologies Used
+* Screenshots
 * Future Updates
 
 ---
 
-**Intro**
+**Overview**
 
-This is a single page website project about traveling across the US. This project has been set up using ***Flexbox*** and ***CSS Grid*** for layout and follows ***responsive design*** prinicples, so that it can be displayed correctly on most popular screen sizes. It has been set up using a nested ***BEM (Block, Element, Modifier) file structure, HTML*** and ***CSS***.
+This is a single page website project about traveling across the US. This project has been set up using ***Flexbox*** and ***CSS Grid*** for layout and follows ***responsive design*** prinicples, so that it can be displayed correctly on all popular screen sizes. It has been set up using a nested ***BEM (Block, Element, Modifier) file structure, HTML*** and ***CSS***.
+
+Visit this link to see the project live, [click here](https://mhbae-dev.github.io/web_project_3/)!
+
+## Instructions for use
+
+**Setup**
+First, clone this repository to a local directory. Enter in the command line:
+```
+$ git clone https://github.com/mhbae-dev/web_project_3.git
+cd web_project_3
+```
+**Run**
+Open index.html to view the website
+```
+$ cd web_project_3
+open ./index.html or use Live Server
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+
 
 **Technologies Used**
 - HTML
@@ -21,6 +39,14 @@ This is a single page website project about traveling across the US. This projec
 - Grid
 - Figma
 - Git
+
+---
+
+## Screenshots
+
+![Desktop Demo](https://user-images.githubusercontent.com/41869496/153862722-7c448cf3-c1e6-4e97-bcbe-aea0f9255785.gif)
+
+---
 
 **Future Updates**
 

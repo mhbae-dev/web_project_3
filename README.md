@@ -15,7 +15,7 @@ Visit this link to see the project live, [click here](https://mhbae-dev.github.i
 
 ## Demo
 
-![Desktop Demo](https://user-images.githubusercontent.com/41869496/153862722-7c448cf3-c1e6-4e97-bcbe-aea0f9255785.gif)
+![portland](https://user-images.githubusercontent.com/41869496/156927689-ecc56183-7f33-4cc0-b466-e3dbff518315.gif)
 
 ## Instructions for use
 
